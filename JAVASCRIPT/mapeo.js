@@ -28,7 +28,30 @@
         nomina: Number,
     }
 
-    Compras[]
+    Compras: []
+
+    clientes = {
+        nombre: String,
+        correo: String,
+        ordenPedida: String,
+        numerovisita: Number 
+    }
+
+    mesas ={
+        ubicacion: String,
+        numeroMesa: Number,
+        nombreReserva: String,
+    }
+
+    categorias = {
+        oriental: String,
+        regionalTpica: String,
+        desayunos: String,
+        almuerzos: String,
+        comidarapida: String
+    }
+
+    
 }
 
 
